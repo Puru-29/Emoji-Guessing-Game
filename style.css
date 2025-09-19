@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: #333;
+}
+#emoji-options {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.emoji-btn{
+    font-size: 40px;
+    margin: 10px; 
+    padding: 10px;
+    border: none; 
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.emoji-btn:hover {
+    transform: scale(1.2);
+}
+
+#result-message{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#random-emoji{
+    font-size: 50px;
+    margin: 20px;
+}
+
+#play-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
